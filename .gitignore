@@ -1,0 +1,38 @@
+# Python virtual environments
+venv/
+.venv/
+env/
+ENV/
+backend/venv/
+backend/env/
+backend/.venv/
+
+# Python cache and compiled files
+**/__pycache__/
+**/*.pyc
+**/*.pyo
+**/*.pyd
+
+# IDEs and Editors
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+
+# Local environment files
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.log
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Databases
+*.db
+*.sqlite3
